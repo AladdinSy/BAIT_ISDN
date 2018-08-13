@@ -41,7 +41,7 @@ TamperMonkey
 ### <p dir="rtl" align="right">2- تركيب سكربت حساب المعدل</p>
 <p align="right" dir="rtl">
 بعد تركيب الإضافة الآن سنقوم بتركيب السكربت وكل ما عليك هو الدخول إلى الرابط التالي 
-<a href="https://github.com/zuhairtaha/avgCalc/raw/master/svu_ise_average.user.js">سكربت حساب المعدل</a>
+<a href="https://github.com/AladdinSy/avgCalc/raw/master/svu_BAIT_average.user.js">سكربت حساب المعدل</a>
  ثم تجد زر بعنوان تثبيت أو install اضغط عليه فيتم التركيب
 </p>
 
