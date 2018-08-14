@@ -182,7 +182,7 @@
   if (average >= 90 && average < 100) evaluation = 'مرتبة شرف';
   totlaHours = denominator + EnglishHoursPassed + sumEquivalent;
   // remain     = TotalHoursWithoutSkippedEnglish - EnglishHoursPassed;
-  remain = 147 - totlaHours;
+  remain = 159 - totlaHours;
   // endregion
 
   // region all semesters averages
@@ -220,12 +220,12 @@
     remainToNxt = 30 - totlaHours;
     NxtYerar = 'رابعة';
   }
-  if (totlaHours > 30 && totlaHours <= 147) {
+  if (totlaHours > 30 && totlaHours <= 159) {
     year = 'الرابعة';
-    remainToNxt = 147 - totlaHours;
+    remainToNxt = 159 - totlaHours;
     NxtYerar = 'تخرج';
   }
-  if (totlaHours >= 147) {
+  if (totlaHours >= 159) {
     year = 'مبارك التخرج';
     remainToNxt = 0;
     NxtYerar = '';
@@ -239,7 +239,7 @@
   if (year === 'الخامسة') {
     html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px">باقي ' + remainToNxt + ' ساعات للتخرج ' + '<span></p>';
   } else {
-    if (totlaHours >= 147)
+    if (totlaHours >= 159)
       html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px"> * * * * * <span></p>';
     else
       html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px">باقي ' + remainToNxt + ' لتصبح سنة ' + NxtYerar + '<span></p>';
