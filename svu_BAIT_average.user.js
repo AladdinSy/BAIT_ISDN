@@ -239,7 +239,7 @@
   if (year === 'الخامسة') {
     html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px">باقي ' + remainToNxt + ' ساعات للتخرج ' + '<span></p>';
   } else {
-    if (totlaHours >= 147)
+    if (totlaHours >= 159)
       html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px"> * * * * * <span></p>';
     else
       html += '<p>السنة الحالية: ' + year + '<br /><span style="font-size:13px">باقي ' + remainToNxt + ' لتصبح سنة ' + NxtYerar + '<span></p>';
